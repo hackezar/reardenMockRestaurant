@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Video from "../Video/Video"
 import AddressBar from "../AddressBar/AddressBar"
+import PartiesSection from "./PartiesSection/PartiesSection";
 import styles from "./LandingPage.module.css";
 
 
@@ -11,6 +12,7 @@ const LandingPage = ({}) => {
             <Navbar />
             <Video />
             <AddressBar />
+            <PartiesSection />
         </div>
     )
 }

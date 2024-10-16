@@ -1,20 +1,47 @@
 
 .navbar {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
-    height: auto;
+    height: 25vh;
     background-color: black;
     color: white;
     border: 1px solid black;
+    align-items: center;
+}
+
+.headerText {
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.secondHeader {
+    margin-top: 0.3rem;
+    padding: 0 1rem;
+}
+
+hr {
+    height: 1px;
+    width: 10px;
+}
+
+.lastHeader {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
 }
 
 .logo {
     width: 5%;
+    max-width: 84px;
+    margin-top: 1rem;
 }
 
 .routesList {
     list-style-type: none;
     display: flex;
     gap: 1rem;
+    margin: 0;
 }
 
 .routesList li:not(:first-child){
@@ -27,32 +54,29 @@
 
 .links {
     display: flex;
+    flex: 1;
     align-items: center;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .socials {
     list-style: none;
     display: flex;
+    margin: 0;
     padding: 0;
+    gap: 1rem;
 }
 
 .socialsItem {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3vw;
+    width: 1.5vw;
+    z-index: 2;
 }
 
 .socialsImg {
-    width: 1vw;
+    width: 100%;
 }
-
-.headerText {
-    font-weight: 400;
-}
-
-#yelpLogo {
-    width: 3vw;
-}
-

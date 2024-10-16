@@ -1,6 +1,9 @@
 .addressBarDiv {
     background-color: slategrey;
     width: 100vw;
+    height: 10vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }

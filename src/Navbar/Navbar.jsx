@@ -4,7 +4,7 @@ import Logo from "../assets/Rearden Digital Logo AI.webp";
 import XLogo from "../assets/X_logo_2023_(white).png";
 import FBLogo from "../assets/FacebookLogo.jpg";
 import InstaLogo from "../assets/instaLogo.png";
-import YelpLogo from "../assets/yelp.svg";
+import YelpLogo from "../assets/Yelp.png";
 //
 
 const Navbar = ({}) => {
@@ -12,8 +12,8 @@ const Navbar = ({}) => {
         <section className={styles.navbar}>
             <img className={styles.logo} src={Logo}/>
             <h3 className={styles.headerText}>Reardens</h3>
-            <h4 className={styles.headerText}>Tavern</h4>
-            <h5 className={styles.headerText}>American Scratch Kitchen + Bar</h5>
+            <h4 className={`${styles.headerText} ${styles.secondHeader}`}><span>Tavern</span></h4>
+            <h5 className={`${styles.headerText} ${styles.lastHeader}`}>American Scratch Kitchen + Bar</h5>
             <div className={styles.links}>
                 <ul className={styles.routesList}>
                     <li className={styles.routeItem}>Menu</li>
