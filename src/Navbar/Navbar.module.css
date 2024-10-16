@@ -1,0 +1,58 @@
+
+.navbar {
+    width: 100vw;
+    height: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 5%;
+}
+
+.routesList {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.routesList li:not(:first-child){
+    border-left: 1px solid white;
+}
+
+.routeItem {
+    padding-left: 1rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.socialsItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3vw;
+}
+
+.socialsImg {
+    width: 1vw;
+}
+
+.headerText {
+    font-weight: 400;
+}
+
+#yelpLogo {
+    width: 3vw;
+}
+

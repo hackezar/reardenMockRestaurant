@@ -1,6 +1,18 @@
+import { Route, Routes, Outlet } from "react-router-dom";
+
+import LandingPage from "./LandingPage/LandingPage";
 import './App.css'
 
 
-const App = () => <h1>Our First Test</h1>;
+
+const App = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<LandingPage />} >
+            
+            </Route>
+        </Routes>
+    )
+};
 
 export default App;
