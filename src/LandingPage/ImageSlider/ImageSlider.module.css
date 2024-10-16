@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Baskervville";
+  src: local("BaskervvilleSC-Regular"),
+  url("../../assets/fonts/BaskervvilleSC-Regular.ttf") format("truetype");
+}
+
+.fancyFont {
+  font-family: "BaskervvilleSC-Regular";
+}
+
+.entireDiv {
+  width: 100vw;
+  height: 60vh;
+}
+
+.slider {
+  width: 100vw;
+  height: 60vh;
+}
+
+.slider > div {
+  height: 60vh;
+  width: 100%;
+}
+
+.slider > div > h3 {
+  z-index: 1;
+}
+
+.image {
+  position: absolute;
+  height: 60vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.sliderDiv {
+  width: 100vw;
+  height: 60vh;
+}
+
+.sliderDiv > div {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.text {
+  font-size: 3rem;
+}
+
+.sliderBtn {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 1rem;
+  width: 8rem;
+  height: 1rem;
+  font-weight: 600;
+}
+
+.entireDiv {
+  position: relative;
+}
+
+.arrowFwd, .arrowBack {
+  width: 6vh;
+  height: 6vh;
+  z-index: 2;
+}
+
+.arrowFwd:hover, .arrowBack:hover {
+  cursor: pointer;
+}
+
+.arrowDiv, .slider {
+  position: absolute;
+  height: 60vh;
+  width: 100vw;
+  top:0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

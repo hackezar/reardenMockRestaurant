@@ -11,10 +11,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@aldabil/react-scheduler": "^2.9.5",
+    "datetime-slot-picker": "^0.1.8",
     "prop-types": "^15.8.1",
     "react": "^18.3.1",
+    "react-awesome-slider": "^4.1.0",
+    "react-datetime": "^3.2.0",
+    "react-datetime-picker": "^6.0.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.27.0"
+    "react-router-dom": "^6.27.0",
+    "react-simple-image-slider": "^2.4.1",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.8",

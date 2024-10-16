@@ -1,13 +1,16 @@
 
 .navbar {
+    box-sizing: border-box;
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 25vh;
+    height: 20vh;
     background-color: black;
     color: white;
     border: 1px solid black;
     align-items: center;
+    z-index: 10;
 }
 
 .headerText {
@@ -19,6 +22,7 @@
 .secondHeader {
     margin-top: 0.3rem;
     padding: 0 1rem;
+    font-size: 0.8rem;
 }
 
 hr {
@@ -32,7 +36,7 @@ hr {
 }
 
 .logo {
-    width: 5%;
+    width: 4%;
     max-width: 84px;
     margin-top: 1rem;
 }

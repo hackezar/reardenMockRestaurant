@@ -1,5 +1,6 @@
 :root {
-  --logoBackgroundColor: #D7D7D7
+  --logoBackgroundColor: #D7D7D7;
+  box-sizing: border-box;
 }
 
 #root {
