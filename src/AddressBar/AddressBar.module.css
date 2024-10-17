@@ -7,3 +7,8 @@
     align-items: center;
     gap: 1rem;
 }
+
+.addressBarDiv > p {
+    color: black;
+    margin: 0;
+}

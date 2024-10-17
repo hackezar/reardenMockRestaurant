@@ -1,0 +1,97 @@
+.container {
+    height: 60vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 1rem 0;
+}
+
+
+.social {
+    height: 7%;
+    width: 7%;
+}
+
+.header {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.locationColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.locationSub {
+    margin: 0;
+}
+
+.locationInnerDiv {
+    text-align: left;
+}
+
+.hoursDiv {
+    margin: 1rem 0;
+}
+
+.hoursDiv > p {
+    margin: 0;
+    text-align: left;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socialsDiv {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social:hover {
+    cursor: pointer;
+}
+
+.contactHead {
+    margin-bottom: 1rem;
+}
+
+.contactSub {
+    margin: 0;
+    text-align: left;
+}
+
+.contactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        font-size: 4vw;
+    }
+    .locationSub {
+        font-size: 2vw;
+    }
+    .hoursDiv {
+        margin: 0;
+    margin-bottom: 1rem;
+    }
+    .contactSub {
+        font-size: 2vw;
+    }
+    .social {
+        width: 4vw;
+    }
+}

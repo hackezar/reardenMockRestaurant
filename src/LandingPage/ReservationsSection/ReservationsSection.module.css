@@ -1,7 +1,3 @@
-.timePicker {
-
-}
-
 .timePicker:hover {
     cursor: pointer;
 }
@@ -21,6 +17,11 @@
 
 .header1 {
     font-size: 2.2rem;
+    color: black;
+}
+
+.header2 {
+    color: black;
 }
 
 .btn {

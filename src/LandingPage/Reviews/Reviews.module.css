@@ -1,10 +1,21 @@
 .reviewsDiv  {
     height: 60vh;
     width: 100vw;
+    padding-bottom: 1rem;
 }
 
 .reviewsDiv > section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.title {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+    .reviewsDiv {
+        height: auto;
+    }
 }

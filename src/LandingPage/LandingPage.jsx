@@ -8,7 +8,8 @@ import Gallery from "./Gallery/Gallery";
 import About from "./About/About";
 import Reviews from "./Reviews/Reviews";
 import Newsletter from "./Newsletter/Newsletter";
-import Map from "./Map/Map"
+import MapSection from "./Map/Map";
+import Footer from "./Footer/Footer";
 
 import styles from "./LandingPage.module.css";
 
@@ -28,8 +29,9 @@ const LandingPage = () => {
             <Reviews />
             <div className={styles.newsLetterMapDiv}>
                 <Newsletter />
-                <Map />
+                <MapSection />
             </div>
+            <Footer />
         </div>
     )
 }
