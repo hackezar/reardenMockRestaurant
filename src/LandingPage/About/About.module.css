@@ -1,10 +1,16 @@
+@font-face {
+    font-family: "Baskervville";
+    src: local("BaskervvilleSC-Regular"),
+    url("../../assets/fonts/BaskervvilleSC-Regular.ttf") format("truetype");
+}
+
 .aboutDiv {
     position: static;
-    height: 50vh;
+    height: 60vh;
     width: 100vw;
     display: flex;
     padding: 5vh 0;
-    background-color: #6488ea;;
+    background-color: #23395d;
 }
 
 .leftSide {
@@ -17,17 +23,51 @@
     height: 100%;
     width: 65%;
     background-color: whitesmoke;
-    padding-left: 5%;
-    padding-right: 15%;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0;
+}
+
+.insideDiv {
+    background-color: whitesmoke;
+    height: 100%;
+    padding-left: 10%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .aboutImg {
     width: 100%;
     height: 100%
+}
+
+.header1 {
+    font-weight: 400;
+    font-size: 3rem;
+    border-bottom: 1px solid black;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+
+.header2 {
+    font-family: "BaskervvilleSC-Regular";
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.moreBtn {
+    width: 8rem;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    background-color: #23395d;
+    border:  none;
+    color: white;
+    margin-top: 1rem;
 }

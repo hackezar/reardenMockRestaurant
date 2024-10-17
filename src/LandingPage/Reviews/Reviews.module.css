@@ -1,0 +1,10 @@
+.reviewsDiv  {
+    height: 60vh;
+    width: 100vw;
+}
+
+.reviewsDiv > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
